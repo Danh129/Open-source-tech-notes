@@ -1,0 +1,5 @@
+s=input("nhap chuoi:")
+tu=s.split()
+chuoichuanhoa=list(map(lambda a: a.capitalize(), tu))
+kq=" ".join(chuoichuanhoa)
+print("Chuoi sau khi chuan hoa:", kq)

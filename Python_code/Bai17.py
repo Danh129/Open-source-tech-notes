@@ -1,0 +1,5 @@
+a=input("Nhap chuoi chuan hoa:")
+words=a.split()
+chuoichuanhoa=list(map(lambda a: a.capitalize(), words))
+result=" ".join(chuoichuanhoa)
+print(f"chuoi sau khi chuan hoa:", result)
